@@ -1,0 +1,18 @@
+logLevel = "DEBUG"
+defaultEntryPoints = ["http", "https"]
+
+[web]
+address = ":8080"
+
+[docker]
+domain = "141.19.44.62"
+watch = true
+
+[entryPoints]
+  [entryPoints.http]
+  address = ":80"
+    [entryPoints.http.redirect]
+    entryPoint = "https"
+  [entryPoints.https]
+  address = ":443"
+    [entryPoints.https.tls]
