@@ -57,7 +57,7 @@ services:
         # - ./http-shibboleth/shibboleth-ds:/var/www/html
         # - ./http-shibboleth/shibboleth:/etc/shibboleth
        - ${CONFIGURATION_PATH}/shibboleth:/etc/shibboleth
-       - /sys/fs/cgroup:/sys/fs/cgroup:rw 
+       - /sys/fs/cgroup:/sys/fs/cgroup:ro #rw 
        - ./configs/conf.d:/etc/httpd/conf.d/ #ssl.conf
        - ./shibboleth:/etc/shibboleth/  
        # - ${CONFIGURATION_PATH}/configuration/files/test-docker.dataverse.no.pem:/etc/pki/tls/certs/localhost.crt
@@ -123,6 +123,9 @@ services:
       restart: unless-stopped
       networks:
         - traefik
+      ports:
+        - "9000:9000"
+        - "9001:9001"
       volumes:
         - ./minio-data:/data
       command:
@@ -162,7 +165,7 @@ services:
     dataverse:
       networks:
         traefik:
-          ipv4_address: 172.18.0.17 
+          ipv4_address: 172.20.0.17 
       image: ${DOCKER_HUB}:${VERSION}
       container_name: dataverse
       restart: unless-stopped   
@@ -267,4 +270,5 @@ networks:
     external: true
     ipam:
       config:
-        - subnet: 172.18.0.0/16
+        - subnet: 172.20.0.0/16
+      

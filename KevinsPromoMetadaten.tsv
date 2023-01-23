@@ -1,0 +1,36 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	KevinPromo		Kevins Promo Metadaten												
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	KevinPromo1schrittweite-X	Schrittweite-X [um]	Schrittweite-X [um]		text	0		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo2schrittweite-Y	Schrittweite-Y [um]	Schrittweite-Y [um]		text	1		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo3stecke-X	Strecke-X [mm]	Strecke-X [mm]		text	2		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo4strecke-Y	Strecke-Y [mm]	Strecke-Y [mm]		text	3		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo5integrationszeit	Integrationszeit [ms]	Integrationszeit [ms]		text	4		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo6anzX-Messung	Anz X-Messung	Anz X-Messung		text	5		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo7anzX-Messung	Anz X-Messung	Anz X-Messung		text	6		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo8totalMessungen	Total Messungen	Total Messungen		text	7		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo9Messdauer	Messdauer [min]	Messdauer [min]		text	8		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo105x-Dunkelfeld	5x - Dunkelfeld	5x - Dunkelfeld		text	9		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo115x-Durchlicht	5x - Durchlicht	5x - Durchlicht		text	10		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo125x-Hellfeld	5x - Hellfeld	5x - Hellfeld		text	11		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo135x-Lambda	5x - Lambda	5x - Lambda		text	12		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo145x-P	5x - P	5x - P		text	13		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo15BD20x-Dunkelfeld	BD20x - Dunkelfeld	BD20x - Dunkelfeld		text	14		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo16BD20x-Hellfeld	BD20x - Hellfeld	BD20x - Hellfeld		text	15		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo17BD20x-Lambda	BD20x - Lambda	BD20x - Lambda		text	16		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo18BD50x-P	BD50x - P	BD50x - P		text	17		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo19Messdatum	Messdatum	Messdatum		text	18		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo20NIR	NIR	NIR		text	19		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo21Projekt	Projekt	Projekt		text	20		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo21Raman	Raman	Raman		text	21		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo22Sampletyp	Sampletyp	Sampletyp		text	22		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo23Sonstiges	Sonstiges	Sonstiges		text	23		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo24Speicherort	Speicherort	Speicherort		text	24		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo25Status	Status	Status		text	25		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo26UV-VIS	UV-VIS	UV-VIS		text	26		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo27X-Startposition	X-Startposition	X-Startposition		text	27		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo28Y-Startposition	Y-Startposition	Y-Startposition		text	28		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo29Schrittweitefuer5x	Schrittweite fuer 5x	Schrittweite fuer 5x		text	29		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo30SchrittweitefuerBD20x	Schrittweite fuer BD20x	Schrittweite fuer BD20x		text	30		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo31SchrittweitefuerBD50x	Schrittweite fuer BD50x	Schrittweite fuer BD50x		text	31		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
+	KevinPromo32SchrittweitefuerRamanUV-VISNIR	Schrittweite fuer Raman, UV-VIS, NIR	Schrittweite fuer Raman, UV-VIS, NIR		text	32		TRUE	FALSE	FALSE	TRUE	FALSE	FALSE		KevinPromo
