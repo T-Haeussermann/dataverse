@@ -122,7 +122,8 @@ services:
       image: minio/minio:RELEASE.2021-10-06T23-36-31Z
       restart: unless-stopped
       networks:
-        - traefik
+        traefik:
+          ipv4_address: 172.20.0.10
       ports:
         - "9000:9000"
         - "9001:9001"
@@ -206,6 +207,8 @@ services:
         - "minio_label_2"
         - "minio_bucket_2"
         - "minio_profile_2"
+        - "MINIO_ACCESS_KEY=1J1Y050OYSPN89VY3O1Y"
+        - "MINIO_SECRET_KEY=i+GSHQ9H1jodqsSsvAYDGfJWl6CBOvAA+2IqKWuW"  
         - "DATAVERSE_DB_HOST"
         - "DATAVERSE_DB_USER"
         - "DATAVERSE_DB_PASSWORD"
